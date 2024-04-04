@@ -6,4 +6,6 @@ Due to light scattering in underwater environments, underwater images often suff
 If you wish to train DUENformer, you will need to download the UIEB dataset and create a data folder. Within this folder, two sub-folders should be created: the input folder for storing degraded images and the GT folder for storing label images.  
 In addition, it is necessary to establish a checkpoint folder for saving the weights during training, as well as creating a sample12 folder for visualizing the images generated throughout the training process.  
 __Environmental requirements:__  
-einops == 0.7.0；scikit-image == 0.21.0；tensorboardX == 2.6.2.2；timm == 0.9.12；torch == 1.11.0+cu113；python == 3.8.10
+einops == 0.7.0；scikit-image == 0.21.0；tensorboardX == 2.6.2.2；timm == 0.9.12；torch == 1.11.0+cu113；python == 3.8.10  
+## __Training__ 
+If you wish to test this method, you will need to create a test folder. Within this folder, two sub-files must be created: one for the input folder and the other for the GT folder. The input folder will store the degraded image used for testing, while the GT folder will store the label image used for testing.
